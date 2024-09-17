@@ -1,7 +1,7 @@
 // In object there are key and values unlike arrays only have values
 //object as literals
 const mySym2 = Symbol("Key1");
-
+//Non Singleton Object Below
 const obj ={
     name: "Harsh",
     College: "Walchand College",
