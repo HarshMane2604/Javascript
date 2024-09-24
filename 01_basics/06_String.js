@@ -1,8 +1,8 @@
 const name = "Harsh";
 const repoCount = 50;
-console.log(name + repoCount + " repository"); // outdated
-// new way
-console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
+// console.log(name + repoCount + " repository"); // outdated
+// // new way
+// console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
 // Declaration of string
 const gameName = new String("Har-sH");
