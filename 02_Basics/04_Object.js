@@ -5,7 +5,7 @@ tinderUser.name = "Harsh Mane";
 tinderUser.id = "123ABC";
 tinderUser.isLoggedIn = false
 
-// console.log(tinderUser);
+//console.log(tinderUser);//{ name: 'Harsh Mane', id: '123ABC', isLoggedIn: false }
 const regularUser = {
     email: "maneharsh72@gmail.com",
     fullname: {
@@ -36,7 +36,7 @@ const obj4 = {...obj1, ...obj2};
 // console.log(Object.values(tinderUser))
 // console.log(Object.entries(tinderUser));
 
-// console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+//console.log(tinderUser.hasOwnProperty("isLoggedIn"));
 
 
 //-----------Destructuring Of Arrays-------------------
