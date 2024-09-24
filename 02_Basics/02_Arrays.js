@@ -6,7 +6,7 @@ const arr2 =['watermelon', 'banana', 'dragonfruit'];
 // console.log(arr[3][1]);
 //Concatenation of two arrays
 
-var new_arr = arr.concat(arr2);
+var new_arr = arr.concat(arr2);// concates the two string
 console.log(new_arr);
 
 //spread operator
