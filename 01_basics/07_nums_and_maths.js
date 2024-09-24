@@ -7,7 +7,7 @@ console.log(balance);
 console.log(balance.toString());
 console.log(balance.toString().length);
 
-console.log(balance.toFixed(2)); //It provides 4 decimal after the given number, Mostly used in Ecommerce store
+console.log(balance.toFixed(2)); //It provides 2 decimal after the given number, Mostly used in Ecommerce store
 
 const otherNumber = 2604.2002;
 console.log(otherNumber.toPrecision(3));//It gives the prices value but remenber to give it up to the decimal point ie priority is before the decimal point
@@ -18,7 +18,7 @@ console.log(hundreds.toLocaleString("en-IN"));// in Indian
 
 //---------------------Maths--------------------------
 console.log(Math);
-console.log.apply(Math.abs(-6));//provides the absolute value ie negative values changes to positive values
+console.log(Math.abs(-6));//provides the absolute value ie negative values changes to positive values
 console.log(Math.round(4.6));   // rounds of the value
 console.log(Math.floor(4.6));   // rounds of the value to lowest integer
 console.log(Math.ceil(4.6));    //rounds of the vaule to highest integer
