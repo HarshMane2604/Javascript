@@ -69,3 +69,12 @@ console.log(addTwo(3, 5));
     console.log(`DB Connected ${name}`);
 })("Harsh");
 
+// Sometimes the golbal scope creates the pollution and due to which it can create problem so to avoid it we use IIFE
+// To end the IIFE function we use semicolon 
+(function chai(){
+    console.log(`DB connected`);
+})();
+
+(() => {
+    console.log(`DB connected ONE`);
+})()
