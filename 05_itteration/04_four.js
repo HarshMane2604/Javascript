@@ -1,3 +1,4 @@
+// forin loop can be used for object
 const myObj1 = {
     js: "javascript",
     cpp: "C++",

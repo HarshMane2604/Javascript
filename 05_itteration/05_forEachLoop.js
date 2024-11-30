@@ -45,7 +45,7 @@ myCoding.forEach( (item) => {
 //     return item;
 // })
 // console.log(value); //undefined
-// //ForEach() loop does not return any value
+// // ForEach() loop does not return any value
 
 const myNume = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // const newNums = myNume.filter((num) => num > 5);
