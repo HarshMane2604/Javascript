@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DOM learning</title>
+    <style>
+        .bg-black{
+            background-color: black;
+            color: white;
+        }
+    </style>
+  </head>
+  <body class="bg-black">
+    <div>
+      <h1 id="title" class="heading">DOM learning on my laptop and <span style="display: none;">chrome</span> engine</h1>
+      <h2>Lorem ipsum dolor sit.</h2>
+      <h2>Lorem ipsum dolor sit.</h2>
+      <h2>Lorem ipsum dolor sit.</h2>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <input type="password" name="" id="">
+
+      <ul>
+        <li class="list-item">one</li>
+        <li class="list-item">Two</li>
+        <li class="list-item">Three</li>
+      </ul>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+<!-- title.innerText
+'DOM learning on my laptop and engine'
+title.innerContent
+undefined
+title.textContent
+'DOM learning on my laptop and chrome engine 
+title.innerHTML
+'DOM learning on my laptop and <span style="display: none;">chrome</span> engine'-->
+
+<!-- Array.from(temClassList);
+to convert HTML collection or node collection into array -->
+
+<!-- myConvertedArray
+(3) [li.list-item, li.list-item, li.list-item]
+myConvertedArray.forEach(function (li) {
+    li.style.color = "red";
+}) -->
